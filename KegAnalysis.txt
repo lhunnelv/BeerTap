@@ -1,0 +1,40 @@
+Console app
+
+Configuration:
+Set Location
+
+Beer Tap
+	- pour beer 
+have a great day
+	- Display Keg Status
+	- Display refill when almost Dry
+
+
+		
+Location
+	ID
+	Name
+	Description
+	Remarks
+	
+GlassAmount
+	LocationID
+	Limit
+
+KegStatus
+	ID
+	Description
+	
+Keg
+	ID
+	Code
+	LocationID
+	Size
+	
+KegStatusAndDescription
+	ID
+	KegID
+	KegStatusID
+	Product
+	CurrentAmount
+	

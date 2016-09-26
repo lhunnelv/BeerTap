@@ -1,0 +1,11 @@
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\LVBeerTap.Model.XML
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\LVBeerTap.Model.dll
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\LVBeerTap.Model.pdb
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\IQ.Platform.Framework.Common.dll
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.dll
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\Newtonsoft.Json.dll
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\IQ.Platform.Framework.WebApi.Model.xml
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\bin\Debug\Newtonsoft.Json.xml
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\obj\Debug\LVBeerTap.Model.dll
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\obj\Debug\LVBeerTap.Model.pdb
+D:\Dev\LVBeerTap\LVBeerTap\LVBeerTap.Model\obj\Debug\LVBeerTap.Model.csprojResolveAssemblyReference.cache

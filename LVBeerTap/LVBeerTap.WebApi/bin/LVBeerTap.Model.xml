@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LVBeerTap.Model</name>
+    </assembly>
+    <members>
+        <member name="T:LVBeerTap.Model.IStatefulKeg">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.IStatefulKeg.KegState">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.KegState">
+            <summary>
+            A Keg Status, used as a placeholder.
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.KegState.New">
+            <summary>
+            Keg is full.
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.KegState.GoingDown">
+            <summary>
+            Keg is going down
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.KegState.AlmostEmpty">
+            <summary>
+            Keg is Almost Empty.
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.KegState.ShelsDryMate">
+            <summary>
+            Keg is Empty.
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.ModelData">
+            <summary>
+            Model data
+            </summary>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetOffices">
+            <summary>
+            Get collections of Offices
+            </summary>
+            <returns>List of office</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetOffices(System.Object)">
+            <summary>
+            Select office
+            </summary>
+            <returns>office details</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.SetOffices">
+            <summary>
+            Collection of office
+            </summary>
+            <returns>Mock data for office</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetKegs">
+            <summary>
+            List of Keg
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetKegs(System.Int32)">
+            <summary>
+            Select Keg
+            </summary>
+            <returns>Selected Keg Details</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetKegsperOffice(System.Int32)">
+            <summary>
+            Select Keg
+            </summary>
+            <returns>Selected Keg Details</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.GetKegs(System.Int32,System.Int32)">
+            <summary>
+            Select Multiple office Keg
+            </summary>
+            <returns>Selected Keg Details</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.SetKegs">
+            <summary>
+            Collection of keg
+            </summary>
+            <returns>Mock data for Keg</returns>
+        </member>
+        <member name="M:LVBeerTap.Model.ModelData.LogTransaction(LVBeerTap.Model.TransactionData)">
+            <summary>
+            list of transaction
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.TransactionData">
+            <summary>
+            A DispenseBeer, used as a placeholder.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.TransactionData.Id">
+            <summary>
+            Unique Identifier for the DispenseBeer
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.TransactionData.KegId">
+            <summary>
+            Reference id for Keg
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.TransactionData.Product">
+            <summary>
+            Product Description
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.TransactionData.AmountinMililiters">
+            <summary>
+            Glass Amount in Mililiters 
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.ReplaceKeg">
+            <summary>
+            A DispenseBeer, used as a placeholder.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.ReplaceKeg.Id">
+            <summary>
+            Unique Identifier for the DispenseBeer
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.ReplaceKeg.Product">
+            <summary>
+            The Product of Keg
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.ReplaceKeg.CapacityinMiliLiters">
+            <summary>
+            The Capacity of Keg in Liters
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.ReplaceKeg.AmountinMililiters">
+            <summary>
+            Glass Amount in Mililiters 
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.LinkRelations">
+            <summary>
+            iQmetrix link relation names
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.LinkRelations.Office">
+            <summary>
+            link relation to describe the Office.
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.LinkRelations.Keg">
+            <summary>
+            link relation to describe the Keg.
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.LinkRelations.Kegs">
+            <summary>
+            The Kegs
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.LinkRelations.Kegs.NewGlass">
+            <summary>
+            link relation to describe the NewGlass.
+            </summary>
+        </member>
+        <member name="F:LVBeerTap.Model.LinkRelations.Kegs.ReplaceKeg">
+            <summary>
+            link relation to describe the Replace Keg.
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.Keg">
+            <summary>
+            A Keg, used as a placeholder.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.Id">
+            <summary>
+            Unique Identifier for the Keg
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.OfficeId">
+            <summary>
+            Unique Identifier of the Office
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.Product">
+            <summary>
+            The Product of Keg
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.CapacityinMililiters">
+            <summary>
+            The Capacity of Keg in Mililiters
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.AmountinMililiters">
+            <summary>
+            The Current Amount of Keg in Mililiters
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Keg.KegState">
+            <summary>
+            Keg Status
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.NewGlass">
+            <summary>
+            A DispenseBeer, used as a placeholder.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.NewGlass.Id">
+            <summary>
+            Unique Identifier for the DispenseBeer
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.NewGlass.AmountinMililiters">
+            <summary>
+            Glass Amount in Mililiters 
+            </summary>
+        </member>
+        <member name="T:LVBeerTap.Model.Office">
+            <summary>
+            A Office, used as a placeholder.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Office.Id">
+            <summary>
+            Unique Identifier for the Office.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Office.Name">
+            <summary>
+            Name for the Office.
+            </summary>
+        </member>
+        <member name="P:LVBeerTap.Model.Office.Limit">
+            <summary>
+            limit per Glass.
+            </summary>
+        </member>
+    </members>
+</doc>
